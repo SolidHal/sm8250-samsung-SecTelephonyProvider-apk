@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="apn_restore_to_default">APN information will be updated and restore as default.</string>
+    <string name="apn_restore_to_default_title">Notice</string>
+    <string name="apn_source_service" />
+    <string name="app_label">Dialer Storage</string>
+    <string name="chat">Enhanced messaging (chats)</string>
+    <string name="dlg_ok">OK</string>
+    <string name="enable_supl_china">沃宽带用户手机上网</string>
+    <string name="file_transfer">Enhanced messaging (file names, thumbnail images)</string>
+    <string name="scloud_backup_provider">Scloud backup and restore provider</string>
+    <string name="select_apn">Select APN</string>
+    <string name="simServiceTitle">SIM service</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

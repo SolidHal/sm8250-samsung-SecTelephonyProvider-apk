@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="apn_restore_to_default_title">Aviso</string>
+    <string name="app_label">Almacenamiento del marcador</string>
+    <string name="chat">Mensajes mejorados (chats)</string>
+    <string name="dlg_ok">Aceptar</string>
+    <string name="file_transfer">Mensajes mejorados (nombres de archivos, imágenes en miniatura)</string>
+    <string name="select_apn">Seleccionar APN</string>
+    <string name="simServiceTitle">Servicio SIM</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

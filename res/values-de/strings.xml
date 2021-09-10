@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="apn_restore_to_default_title">Hinweis</string>
+    <string name="app_label">Speicher des Wählprogramms</string>
+    <string name="chat">Erweiterte Nachrichten (Chats)</string>
+    <string name="dlg_ok">OK</string>
+    <string name="file_transfer">Erweiterte Nachrichten (Dateinamen, Miniaturansichten)</string>
+    <string name="select_apn">APN-Auswahl</string>
+    <string name="simServiceTitle">SIM-Dienste</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

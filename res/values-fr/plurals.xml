@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="mms_file_over_max_backup_size">
+        <item quantity="other">Impossible de sauvegarder %1$d MMS. La taille de fichier maximale pouvant être sauvegardée simultanément (%2$d Mo) a été dépassée.</item>
+        <item quantity="one">Impossible de sauvegarder 1 MMS. La taille de fichier maximale pouvant être sauvegardée simultanément (%d Mo) a été dépassée.</item>
+    </plurals>
+</resources>

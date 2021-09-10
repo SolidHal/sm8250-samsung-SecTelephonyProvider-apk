@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" android:sharedUserId="android.uid.phone" coreApp="true" package="com.android.providers.telephony" platformBuildVersionCode="30" platformBuildVersionName="11">
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_DEVICE_CONFIG"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="android.permission.USE_RESERVED_DISK"/>
+    <uses-permission android:name="android.permission.READ_COMPAT_CHANGE_CONFIG"/>
+    <uses-permission android:name="android.permission.LOG_COMPAT_CHANGE"/>
+    <protected-broadcast android:name="android.provider.action.EXTERNAL_PROVIDER_CHANGE"/>
+    <protected-broadcast android:name="android.intent.action.CONTENT_CHANGED"/>
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_MESSAGES_ON_ICC"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="com.wssnps.permission.COM_WSSNPS"/>
+    <uses-permission android:name="com.sec.imsservice.READ_IMS_PERMISSION"/>
+    <uses-permission android:name="com.samsung.android.messaging.permission.FINISH_RESTORE_MESSAGE"/>
+    <permission android:name="com.samsung.android.messaging.permission.FINISH_RESTORE_MESSAGE" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="com.samsung.android.scloud.sync.permission.READ"/>
+    <uses-permission android:name="com.samsung.android.scloud.sync.permission.WRITE"/>
+    <permission android:name="com.samsung.android.telephony.provider.permission.ACCESS_RESTORE_STATE" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="com.samsung.android.telephony.provider.permission.ACCESS_RESTORE_STATE"/>
+    <protected-broadcast android:name="com.samsung.android.messaging.intent.action.FINISH_RESTORE_MESSAGE"/>
+    <protected-broadcast android:name="com.samsung.android.intent.action.RESPONSE_BACKUP_MESSAGE"/>
+    <protected-broadcast android:name="com.samsung.android.intent.action.RESPONSE_RESTORE_MESSAGE"/>
+    <protected-broadcast android:name="com.samsung.android.intent.action.PROGRESS_RESTORE_MESSAGE"/>
+    <protected-broadcast android:name="com.samsung.android.intent.action.RESPONSE_BACKUP_MESSAGE_DB"/>
+    <protected-broadcast android:name="com.samsung.android.intent.action.RESPONSE_RESTORE_MESSAGE_DB"/>
+    <protected-broadcast android:name="com.samsung.android.intent.action.PROGRESS_RESTORE_MESSAGE_DB"/>
+    <protected-broadcast android:name="com.samsung.android.intent.action.RESPONSE_RESTORE_MESSAGE_FILE"/>
+    <protected-broadcast android:name="com.samsung.android.intent.action.PROGRESS_RESTORE_MESSAGE_FILE"/>
+    <protected-broadcast android:name="com.samsung.android.intent.action.NWKNAME_SELECT_DONE"/>
+    <protected-broadcast android:name="com.samsung.android.intent.action.SHOW_SELECT_APN_POPUP"/>
+    <protected-broadcast android:name="com.samsung.intent.action.CSC_CONNECTION_RESET_DONE"/>
+    <application android:allowClearUserData="false" android:appComponentFactory="android.support.v4.app.CoreComponentFactory" android:backupAgent="com.android.providers.telephony.TelephonyBackupAgent" android:backupInForeground="true" android:defaultToDeviceProtectedStorage="true" android:directBootAware="true" android:extractNativeLibs="true" android:forceQueryable="true" android:fullBackupOnly="true" android:icon="@drawable/ic_launcher_phone" android:label="@string/app_label" android:process="com.android.phone" android:restoreAnyVersion="true" android:usesCleartextTraffic="true" android:usesNonSdkApi="true">
+        <provider android:authorities="telephony" android:exported="true" android:multiprocess="false" android:name="com.android.providers.telephony.TelephonyProvider" android:singleUser="true"/>
+        <provider android:authorities="sms;spamsms" android:exported="true" android:multiprocess="false" android:name="com.android.providers.telephony.SmsProvider" android:readPermission="android.permission.READ_SMS" android:singleUser="true"/>
+        <provider android:authorities="sms-changes" android:exported="true" android:multiprocess="false" android:name="com.android.providers.telephony.SmsChangesProvider" android:readPermission="android.permission.READ_SMS" android:singleUser="true"/>
+        <provider android:authorities="mms;spammms" android:exported="true" android:multiprocess="false" android:name="com.android.providers.telephony.MmsProvider" android:readPermission="android.permission.READ_SMS" android:singleUser="true">
+            <grant-uri-permission android:pathPrefix="/part/"/>
+            <grant-uri-permission android:pathPrefix="/drm/"/>
+            <grant-uri-permission android:pathPrefix="/spampart/"/>
+        </provider>
+        <provider android:authorities="mms-sms" android:exported="true" android:multiprocess="false" android:name="com.android.providers.telephony.MmsSmsProvider" android:readPermission="android.permission.READ_SMS" android:singleUser="true"/>
+        <provider android:authorities="carrier_information" android:exported="true" android:multiprocess="false" android:name="com.android.providers.telephony.CarrierProvider" android:singleUser="true" android:writePermission="android.permission.MODIFY_PHONE_STATE"/>
+        <provider android:authorities="hbpcd_lookup" android:exported="true" android:multiprocess="false" android:name="com.android.providers.telephony.HbpcdLookupProvider" android:singleUser="true" android:writePermission="android.permission.MODIFY_PHONE_STATE"/>
+        <provider android:authorities="carrier_id" android:exported="true" android:multiprocess="false" android:name="com.android.providers.telephony.CarrierIdProvider" android:singleUser="true"/>
+        <service android:exported="false" android:name="com.android.providers.telephony.TelephonyBackupAgent$DeferredSmsMmsRestoreService"/>
+        <provider android:authorities="im;spam_im" android:exported="true" android:multiprocess="false" android:name="com.android.providers.telephony.ImProvider" android:readPermission="android.permission.READ_SMS" android:singleUser="true">
+            <grant-uri-permission android:pathPrefix="/ft_thumbnail/"/>
+            <grant-uri-permission android:pathPrefix="/ft_original/"/>
+        </provider>
+        <provider android:authorities="channels" android:exported="true" android:multiprocess="false" android:name="com.android.providers.telephony.ChannelsProvider" android:readPermission="android.permission.READ_SMS" android:writePermission="android.permission.MODIFY_PHONE_STATE"/>
+        <provider android:authorities="bin_msg;bin_sms;bin_mms;bin_wpm;bin_im;bin_ft" android:exported="true" android:multiprocess="false" android:name="com.android.providers.telephony.BinProvider" android:readPermission="android.permission.READ_SMS" android:singleUser="true">
+            <grant-uri-permission android:pathPrefix="/part/"/>
+            <grant-uri-permission android:pathPrefix="/ft_thumbnail/"/>
+            <grant-uri-permission android:pathPrefix="/ft_original/"/>
+        </provider>
+        <provider android:authorities="com.android.providers.telephony.file" android:exported="false" android:grantUriPermissions="true" android:name="android.support.v4.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_path"/>
+        </provider>
+        <provider android:authorities="nwkinfo" android:exported="true" android:multiprocess="false" android:name="com.android.providers.telephony.NwkInfoProvider"/>
+        <meta-data android:name="TP_DBVer" android:value="411"/>
+        <meta-data android:name="wssnps_bnr_byreplacingdb" android:value="true"/>
+        <meta-data android:name="wssnps_bnr_byparsingfile" android:value="true"/>
+        <meta-data android:name="wsspns_bnr_supportprogress" android:value="true"/>
+        <meta-data android:name="wsspns_bnr_supportrcs" android:value="true"/>
+        <meta-data android:name="scloud_bnr_supportrcs" android:value="true"/>
+        <receiver android:name="com.android.providers.telephony.backup.FreeMessageBnR" android:permission="com.wssnps.permission.COM_WSSNPS">
+            <intent-filter>
+                <action android:name="com.samsung.android.intent.action.REQUEST_BACKUP_MESSAGE"/>
+                <action android:name="com.samsung.android.intent.action.REQUEST_RESTORE_MESSAGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.android.providers.telephony.backup.MessageBnR" android:permission="com.wssnps.permission.COM_WSSNPS">
+            <intent-filter>
+                <action android:name="com.samsung.android.intent.action.REQUEST_BACKUP_MESSAGE_DB"/>
+                <action android:name="com.samsung.android.intent.action.REQUEST_RESTORE_MESSAGE_DB"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.android.providers.telephony.backup.WssnpsFileReceiver" android:permission="com.wssnps.permission.COM_WSSNPS">
+            <intent-filter>
+                <action android:name="com.samsung.android.intent.action.REQUEST_BACKUP_MESSAGE_FILE"/>
+                <action android:name="com.samsung.android.intent.action.REQUEST_RESTORE_MESSAGE_FILE"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.android.providers.telephony.backup.WssnpsFileService"/>
+        <receiver android:name="com.android.providers.telephony.backup.SyncRestoreReceiver" android:permission="com.samsung.android.telephony.provider.permission.ACCESS_RESTORE_STATE">
+            <intent-filter>
+                <action android:name="com.sec.android.mms.INIT_SYNC_STATE"/>
+                <action android:name="com.samsung.android.intent.action.RESTORE_MESSAGE_STATE"/>
+                <action android:name="com.samsung.android.intent.action.RESTORING_START"/>
+                <action android:name="com.samsung.android.intent.action.RESTORING_COMPLETE"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="backup_name" android:resource="@xml/backup_item"/>
+        <meta-data android:name="backup_content_uri" android:value="content://com.android.providers.telephony.backup"/>
+        <meta-data android:name="scloud_common_protocol" android:resource="@xml/scloud_common_protocol"/>
+        <provider android:authorities="com.android.providers.telephony.backup" android:enabled="true" android:exported="true" android:label="@string/scloud_backup_provider" android:name="com.samsung.android.scloud.oem.lib.ClientProvider" android:readPermission="com.samsung.android.scloud.backup.lib.read" android:singleUser="true" android:syncable="false" android:writePermission="com.samsung.android.scloud.backup.lib.write"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="false" android:launchMode="standard" android:name="com.android.providers.telephony.ShowSelectApnPopUpActivity" android:noHistory="true" android:process="com.android.phone" android:taskAffinity="" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:windowCloseOnTouchOutside="false">
+            <intent-filter>
+                <action android:name="com.samsung.android.intent.action.SHOW_SELECT_APN_POPUP"/>
+                <category android:name="android.intent.category.DEVELOPMENT_PREFERENCE"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.android.providers.telephony.ApnBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.samsung.android.intent.action.SHOW_SELECT_APN_POPUP"/>
+                <action android:name="com.samsung.android.intent.action.NWKNAME_SELECT_DONE"/>
+                <action android:name="com.samsung.android.intent.action.APN_TEST"/>
+                <action android:name="android.intent.action.SIM_STATE_CHANGED"/>
+                <action android:name="com.samsung.android.intent.action.FOTA_UPDATE"/>
+                <action android:name="com.samsung.intent.action.CSC_SHOW_SIM_PROFILE"/>
+                <action android:name="com.samsung.carrier.action.CARRIER_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.android.providers.telephony.backup.SCloudBnRReceiver">
+            <intent-filter>
+                <action android:name="com.samsung.android.scloud.NOTIFY_PREPARE"/>
+                <action android:name="com.samsung.android.scloud.NOTIFY_COMPLETE"/>
+                <action android:name="com.samsung.android.scloud.NOTIFY_CANCEL"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.android.providers.telephony.backup.SCloudMmsBnRService"/>
+    </application>
+</manifest>

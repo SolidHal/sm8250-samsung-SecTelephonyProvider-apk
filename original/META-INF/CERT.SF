@@ -1,0 +1,206 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+X-Android-APK-Signed: 2
+SHA-256-Digest-Manifest: PPcpS9/P8bfIxkjDBr7PILGyplREEVJHDUqz2BLNVaE=
+
+Name: res/drawable-v21/notification_action_background.xml
+SHA-256-Digest: BTxUIYYeOiXorJPHP+/nnOaIjamn14CxTlP9UntSbBc=
+
+Name: res/mipmap-xxhdpi-v4/ic_launcher_phone.webp
+SHA-256-Digest: uDJ3110UxEY4dkzW9F4NrplIaH1Q8rynMkctzT8tiP8=
+
+Name: res/drawable-xhdpi-v4/notification_bg_normal.9.png
+SHA-256-Digest: UcrXW2ElY1qt5dfTsuSlaRj5YzoOKQ6qQH5GeDt/B8E=
+
+Name: res/drawable/notification_bg.xml
+SHA-256-Digest: uIN9eHK94Tq7EGdS4RrApEZ8TNXJlNNq57zu9eMIODA=
+
+Name: assets/carrier_list.textpb
+SHA-256-Digest: Z/dJbRzZSY2w+HcRJeVwffbjfFR8id1WaPDm89bi6SU=
+
+Name: META-INF/androidx.legacy_legacy-support-v4.version
+SHA-256-Digest: WbEK/aAoBRrNGM+em1GH4vldwrbihP/Atyusejfr7I4=
+
+Name: META-INF/androidx.localbroadcastmanager_localbroadcastmanager.ve
+ rsion
+SHA-256-Digest: dz/Etmdx3147/umVbQCWIOKPKIeZ/5AQMY7kDY6tKAo=
+
+Name: META-INF/androidx.lifecycle_lifecycle-livedata-core.version
+SHA-256-Digest: 7lm+HxPGGqBwZRG0XFVLvuHeZG7C0l26G8/XZK7Gwv4=
+
+Name: assets/carrier_list.pb
+SHA-256-Digest: xq/p8EBt0z8wUEivAmMAUYvlBvLBV7Ckes4GBjzMuoA=
+
+Name: META-INF/androidx.swiperefreshlayout_swiperefreshlayout.version
+SHA-256-Digest: UPSaNSO+KI27qL/hr51RVi+NwT3nnmUQwu1R7VArWKw=
+
+Name: META-INF/androidx.cursoradapter_cursoradapter.version
+SHA-256-Digest: WO8QGdTF6Z+Nx+tt2SrKkX2x+MVekuk+MsIcdvjDlBI=
+
+Name: res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png
+SHA-256-Digest: f/QdP0Grwhn/DYrOcK8L48iPdr49tI6JUbIsde2OQaY=
+
+Name: SEC-INF/buildConfirm.crt
+SHA-256-Digest: P3ynqIdbDmwF1PsNloTMDkK1dQ1IUV/iAEjaKUKMbUg=
+
+Name: res/layout/notification_template_big_media.xml
+SHA-256-Digest: YgJkSbF6zW7qiLIZw7/MCHAmQSzW4TeJOEM3iXs4bFA=
+
+Name: META-INF/androidx.media_media.version
+SHA-256-Digest: rwhuEIJvj1Ngt+/h6+pmUMFCh4Rw6LA10cbOMEng18A=
+
+Name: META-INF/androidx.drawerlayout_drawerlayout.version
+SHA-256-Digest: qOarg4NHsmz+VxfMq7xfe6x/dFd31Ag47LOFbWxnVaw=
+
+Name: META-INF/androidx.print_print.version
+SHA-256-Digest: uMCIWgfCGSFkJqDQOPWSYOiFox3h6DAEO7J2iAGG+Vc=
+
+Name: res/layout-v21/notification_action_tombstone.xml
+SHA-256-Digest: As4qf+ZQjwXs9S1jkw5CM6gu6ldQiuWQqlBiX3PlWJs=
+
+Name: res/drawable/notification_bg_low.xml
+SHA-256-Digest: GmAfwGD8crWeoIIIui74TXH0/IC1SG02s1a1hQxkyHI=
+
+Name: META-INF/androidx.versionedparcelable_versionedparcelable.versio
+ n
+SHA-256-Digest: v9zfLycxcAFM/eBfhJiQrfbZp0eVCynB9bRwweE/4bk=
+
+Name: META-INF/androidx.interpolator_interpolator.version
+SHA-256-Digest: N4J3Okyhgp7tJnMgDYy7AO1PfbcsVsrExFH0sZ47PMY=
+
+Name: SEC-INF/buildinfo.xml
+SHA-256-Digest: aVfXYVCajUFWtRBM8CXkz26ku3Mh91Mx14fKAwkgAp4=
+
+Name: META-INF/androidx.fragment_fragment.version
+SHA-256-Digest: oyQ4rir3CMwMQoB+2559nxSjXvOd+RlvQYEeBkbA/Ss=
+
+Name: res/xml/hbpcd_lookup_tables.xml
+SHA-256-Digest: s+xHi5cf76Lq5Ai2sz5qjizCk9FAs95999Ar6Agg06U=
+
+Name: res/layout-v21/notification_action.xml
+SHA-256-Digest: 5g1ZzyMrsFHCbVqj1Jm2CbvABXGP+dHWVVg+714iVVQ=
+
+Name: res/layout/notification_template_big_media_narrow_custom.xml
+SHA-256-Digest: sKvbNgfNpML/N53cEv0RkU6IKQYFojjPq1jVfw0ANjY=
+
+Name: res/layout/notification_template_part_chronometer.xml
+SHA-256-Digest: +BGvsWj+c/e1e/mKZXwrW4+mcUk2pfzntRMSGaGxR+0=
+
+Name: res/xml/file_path.xml
+SHA-256-Digest: YFiNHWrC8+5lMrY81EN7LvIlM7pNRdIgxO/tSpj2EWI=
+
+Name: res/layout/notification_template_part_time.xml
+SHA-256-Digest: 7Hi/tK3D2OTdP29abB8kozPjBvU39n7d7m2OsFI56Us=
+
+Name: META-INF/androidx.customview_customview.version
+SHA-256-Digest: n2aYNjdw+GOeNu5UyooA6dFn3cRi8J/aID3Bshr/aog=
+
+Name: META-INF/androidx.documentfile_documentfile.version
+SHA-256-Digest: XtrgbtZEO8g86rw2IcsN8DtnE3SNwJsD8DZUhXQgZvg=
+
+Name: res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.webp
+SHA-256-Digest: mYqOTfFKwAOawoCa1aCR/UdOsmecBKPvx30y7KNdhFs=
+
+Name: res/layout/notification_template_media_custom.xml
+SHA-256-Digest: ru2fhhY4IC4TrRvEGoSw7HTr2iLkk4NbD4VJKqOv7fE=
+
+Name: resources.arsc
+SHA-256-Digest: y7aXVRDk41zZt9i4xcgiaPNIouAMF6xJ9WgZyx0c2sw=
+
+Name: META-INF/androidx.legacy_legacy-support-core-utils.version
+SHA-256-Digest: pOtycrREcGL80xHMeQXYHhPt9UNgJ1C+Nl2WP6pDST8=
+
+Name: AndroidManifest.xml
+SHA-256-Digest: xIoPZNNqJKHinxGnbqJuNL4TrdP3RxO4etWdD2RbzRU=
+
+Name: META-INF/androidx.loader_loader.version
+SHA-256-Digest: 10v7H8PZUpl/f5MJwXLV5iEQRo67haY1iJ684+v3CxA=
+
+Name: res/layout/notification_media_action.xml
+SHA-256-Digest: t0gI3YODI1Z42vK+ZuERUF6JF8nreuZSu83/UtD29lA=
+
+Name: META-INF/androidx.lifecycle_lifecycle-runtime.version
+SHA-256-Digest: Oz4f9/XE+1/nN/AS2x3imNnqY/zZf6krbiS7xAVXHJQ=
+
+Name: META-INF/androidx.viewpager_viewpager.version
+SHA-256-Digest: oNaQvKAPZ9WNlC33T/lgN0Xq5dY/pzzuqPBhgZknAPo=
+
+Name: META-INF/androidx.asynclayoutinflater_asynclayoutinflater.versio
+ n
+SHA-256-Digest: q5E+kSnkMtjiCBH5vSM7vhCAZwoQTJPLJcZfI8fU5qk=
+
+Name: res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png
+SHA-256-Digest: ukgIe6XxA8BIeBpiCpKscdVufr7N3/HFli1R1e0BBDs=
+
+Name: META-INF/androidx.lifecycle_lifecycle-viewmodel.version
+SHA-256-Digest: vAnwEV3Qw+zXeu1Qz/SPY76ftPM6BapNT2fukaQRrvs=
+
+Name: res/drawable/notification_tile_bg.xml
+SHA-256-Digest: L9qvlvjL17+oIV86RL02wM+xZhQLJvX9I+TnCU0/Sg4=
+
+Name: res/layout/notification_template_big_media_custom.xml
+SHA-256-Digest: VzmxNzjaQf+AI2dluJNJObQfW0GI7RqtGVYhG9h5OcE=
+
+Name: res/layout-v21/notification_template_custom_big.xml
+SHA-256-Digest: e+MJv5+jnqQSFXKl5/Rsm0C5ThTf4m32qymgIvNJyzE=
+
+Name: META-INF/androidx.core_core.version
+SHA-256-Digest: BLbJlwENftzmI+Vh7p9qhSlKJxwsuPTlvSTVH9o7Ewc=
+
+Name: res/mipmap-xhdpi-v4/ic_launcher_phone.webp
+SHA-256-Digest: 98QWn+7hnonw6lNpR8AC7pDPitJ380znd7phdu7CZkM=
+
+Name: META-INF/androidx.arch.core_core-runtime.version
+SHA-256-Digest: zHWzybhpUh+5NCGTmLUr026yH9K5amrh/C2GIRLHBSk=
+
+Name: res/drawable-xhdpi-v4/notification_bg_low_normal.9.png
+SHA-256-Digest: uXY6G0jRm/22W3PCh/Bn1QB8m4GwiK1QCuoTeveblDQ=
+
+Name: res/xml/backup_item.xml
+SHA-256-Digest: G6jtQeRIQrT+7ucCPpo5HYDKpO72HtN/6XLn/AzzHdU=
+
+Name: res/layout/apn_select_popup.xml
+SHA-256-Digest: cndhyyrEp4+1CzYq8OiZkUPP9z3IJXmu461EPdlnymg=
+
+Name: META-INF/androidx.slidingpanelayout_slidingpanelayout.version
+SHA-256-Digest: 17Xh1tiDn7TBvY5BUJWJ7gZZ9x+cPA4z8nDokcIlymA=
+
+Name: res/layout-v21/notification_template_icon_group.xml
+SHA-256-Digest: o9aEHK8Cr3ZMK2AOIB7WBxS/68u1/G1CiXiFAxECI7A=
+
+Name: res/mipmap-hdpi-v4/ic_launcher_phone.webp
+SHA-256-Digest: 3MI8wobtMc1R7zWe5KSFUiP4U2TznRABdm3mXvMfgNM=
+
+Name: res/mipmap-mdpi-v4/ic_launcher_phone.webp
+SHA-256-Digest: 9pzLFUDA8bSi2FUBO+Cv+6/bMz5tVb1aVqahPm3idco=
+
+Name: META-INF/androidx.coordinatorlayout_coordinatorlayout.version
+SHA-256-Digest: 1ylMKwG6JWodPwG8ftCPEN9F1zrYrJuCTN4Ln8zPMY0=
+
+Name: res/layout/notification_template_media.xml
+SHA-256-Digest: 3IgpIQ7Lh8aS8fZnrL0b3KbrS5HckripBKy8APoDIl8=
+
+Name: META-INF/androidx.legacy_legacy-support-core-ui.version
+SHA-256-Digest: w9pgfyzpTlKz77vvSaOIWICwaRTgL9WBuTrsC7Oo/hM=
+
+Name: res/drawable-hdpi-v4/ic_launcher_phone.webp
+SHA-256-Digest: q4THa4qufhnIK5aMPX7JAaa3LwtVdT/DQ0fZ2BQkEew=
+
+Name: res/layout/notification_template_lines_media.xml
+SHA-256-Digest: TE/ZWL+lcU15sI+jlkXLJmWflOrNalF0RbINf2hPJPU=
+
+Name: res/layout/notification_template_big_media_narrow.xml
+SHA-256-Digest: Sl2Yc4axFG6t0U/nnvfRp1Qxzq1fH+ICPRkSjz+Fzow=
+
+Name: res/drawable/notification_icon_background.xml
+SHA-256-Digest: NX1Es/8glspJTrmdNIBmwxrI4tvNT7AAYelN+U+BwWo=
+
+Name: classes.dex
+SHA-256-Digest: ig4jEmpcayWTKiNhJy871aNUxj+dqDJ1mFscLKx0CQI=
+
+Name: res/layout/notification_media_cancel_action.xml
+SHA-256-Digest: SOZU/AxzPzirL4RLP5l4bHabFC7hq3OOZ3/Mg1sxL1E=
+
+Name: res/xml/scloud_common_protocol.xml
+SHA-256-Digest: o+mgHS908qc7z6cBnelDoDRxF4qo6uZyDL37RplFQ6g=
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="mms_file_over_max_backup_size">
+        <item quantity="other">멀티미디어 메시지 %1$d개를 백업할 수 없습니다. 파일은 한 번에 %2$dMB까지만 백업할 수 있습니다.</item>
+        <item quantity="one">멀티미디어 메시지 1개를 백업할 수 없습니다. 파일은 한 번에 %dMB까지만 백업할 수 있습니다.</item>
+    </plurals>
+</resources>

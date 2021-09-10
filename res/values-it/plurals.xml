@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="mms_file_over_max_backup_size">
+        <item quantity="other">Impossibile effettuare il backup di %1$d messaggi multimediali. La dimensione massima di file che potete sottoporre a backup in contemporanea (%2$d MB) è stata superata.</item>
+        <item quantity="one">Impossibile effettuare il backup di 1 messaggio multimediale. La dimensione massima di file che potete sottoporre a backup in contemporanea (%d MB) è stata superata.</item>
+    </plurals>
+</resources>

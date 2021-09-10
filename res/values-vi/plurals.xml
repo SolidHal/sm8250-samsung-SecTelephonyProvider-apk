@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="mms_file_over_max_backup_size">
+        <item quantity="other">Không thể sao lưu %1$d tin nhắn MMS. Đã vượt quá kích thước file tối đa có thể sao lưu cùng lúc (%2$d MB).</item>
+        <item quantity="one">Không thể sao lưu 1 tin nhắn MMS. Đã vượt quá kích thước file tối đa có thể sao lưu cùng lúc (%d MB).</item>
+    </plurals>
+</resources>

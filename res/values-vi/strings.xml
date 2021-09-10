@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="apn_restore_to_default_title">Thông báo</string>
+    <string name="chat">Nhắn tin nâng cao (chat)</string>
+    <string name="dlg_ok">OK</string>
+    <string name="file_transfer">Nhắn tin nâng cao (tên file, hình thu nhỏ)</string>
+    <string name="select_apn">Chọn APN</string>
+    <string name="simServiceTitle">Diịch vụ SIM</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

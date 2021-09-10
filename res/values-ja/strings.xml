@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="apn_restore_to_default_title">お知らせ</string>
+    <string name="app_label">端末情報保存</string>
+    <string name="chat">高度なメッセージ(チャット)</string>
+    <string name="dlg_ok">OK</string>
+    <string name="file_transfer">高度なメッセージ(ファイル名、サムネイル画像)</string>
+    <string name="select_apn">APNを選択</string>
+    <string name="simServiceTitle">SIMサービス</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

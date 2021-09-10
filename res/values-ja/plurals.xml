@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="mms_file_over_max_backup_size">
+        <item quantity="other">%1$d件のマルチメディアメッセージをバックアップできません。一度にバックアップできる最大ファイルサイズ(%2$dMB)を超えています。</item>
+        <item quantity="one">1件のマルチメディアメッセージをバックアップできません。一度にバックアップできる最大ファイルサイズ(%dMB)を超えています。</item>
+    </plurals>
+</resources>

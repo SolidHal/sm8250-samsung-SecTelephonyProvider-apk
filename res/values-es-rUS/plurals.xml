@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="mms_file_over_max_backup_size">
+        <item quantity="other">No es posible respaldar %1$d mensajes multimedia. Superó el tamaño máximo de archivos que se respaldan al mismo tiempo (%2$d MB).</item>
+        <item quantity="one">No es posible respaldar 1 mensaje multimedia. Superó el tamaño máximo de archivos que se respaldan al mismo tiempo (%d MB).</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<backup_items>
+    <backup_item allow_backup_concurrently="true" allow_restore_concurrently="false" client_impl_class="com.android.providers.telephony.backup.SmsBNRClient" contents_id="N0iXqXm9oM" data_type="json" interface="IRecordClient" is_enable="true" name="SMS" />
+    <backup_item allow_backup_concurrently="true" allow_restore_concurrently="false" client_impl_class="com.android.providers.telephony.backup.MmsBNRClient" contents_id="I7o6E6m1Lj" data_type="json" interface="IRecordClient" is_enable="true" name="MMS" />
+    <backup_item allow_backup_concurrently="true" allow_restore_concurrently="false" client_impl_class="com.android.providers.telephony.backup.RcsChatBNRClient" contents_id="wRnw2YZMdw" data_type="json" interface="IRecordClient" is_enable="true" name="RCSCHAT" />
+    <backup_item allow_backup_concurrently="true" allow_restore_concurrently="false" client_impl_class="com.android.providers.telephony.backup.RcsFtBNRClient" contents_id="yRcO7OhRx4" data_type="json" interface="IRecordClient" is_enable="true" name="RCSFT" />
+</backup_items>

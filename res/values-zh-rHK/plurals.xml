@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="mms_file_over_max_backup_size">
+        <item quantity="other">無法備份 %1$d 個多媒體訊息。已超過一次可備份的檔案大小上限 (%2$d MB)。</item>
+        <item quantity="one">無法備份 1 個多媒體訊息。已超過一次可備份的檔案大小上限 (%d MB)。</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="mms_file_over_max_backup_size">
+        <item quantity="other">%1$d MMS können nicht gesichert werden. Die maximale Dateigröße, die gleichzeitig gesichert werden kann (%2$d MB), wurde überschritten.</item>
+        <item quantity="one">1 MMS kann nicht gesichert werden. Die maximale Dateigröße, die gleichzeitig gesichert werden kann (%d MB), wurde überschritten.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="apn_restore_to_default_title">공지사항</string>
+    <string name="app_label">다이얼러 저장소</string>
+    <string name="chat">향상된 메시지(대화)</string>
+    <string name="dlg_ok">확인</string>
+    <string name="file_transfer">향상된 메시지(파일 이름, 썸네일 이미지)</string>
+    <string name="select_apn">APN 선택</string>
+    <string name="simServiceTitle">SIM 카드 서비스</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

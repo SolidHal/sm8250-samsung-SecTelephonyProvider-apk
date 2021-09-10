@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="mms_file_over_max_backup_size">
+        <item quantity="other">已超过每次可备份的文件大小上限 (%2$d MB)，无法备份 %1$d 条彩信。</item>
+        <item quantity="one">已超过每次可备份的文件大小上限 (%d MB)，无法备份 1 条彩信。</item>
+    </plurals>
+</resources>
